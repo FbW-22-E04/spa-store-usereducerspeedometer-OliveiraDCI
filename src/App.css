@@ -1,0 +1,45 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/2055140.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.car {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 24px;
+  color: #666;
+}
+
+button {
+  color: #333;
+  background-color: #ddd;
+  cursor: pointer;
+  outline-color: #ccc;
+  font-size: 16px;
+  padding: 5px 7px;
+  border: none;
+  border-radius: 3px;
+  margin: 3px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
